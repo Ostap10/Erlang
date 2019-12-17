@@ -26,8 +26,6 @@ replicate([H|T], NewList, Count) ->
     replicate(T, BufList, Count).
 
 
-
-
 add(_, NewList, 0) ->
   NewList;
 add(Element,NewList,Count) ->
